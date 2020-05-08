@@ -12,3 +12,4 @@ Ideias para este player:
 - [ ] Centralizar verticalmente a barra de busca
 - [ ] Montar a tela de abertura do player
 - [ ] Tornar o Menu funcional
+- [ ] ...
