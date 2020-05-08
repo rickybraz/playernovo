@@ -1,8 +1,5 @@
 # Versão Player 2.0
 
-**Player de musica** 
-*Versão 2.0*
-
 Player de música feito em HTML5, CSS3 e JS com o objetivo de testar conhecimento.
 Ideias para este player:
 * Responsivo sem usar nenhum framework
