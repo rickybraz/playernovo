@@ -25,4 +25,3 @@ E-mail: rickybraz@gmail.com
 [Facebook](https://www.facebook.com/ricardo.braz.9/)
 [Twitter](https://twitter.com/poseidon_sc/)
 
-*Projeto pode ser copiado e modificado mas precisa me avisar e informar o projeto original.*
