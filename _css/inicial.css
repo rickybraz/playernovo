@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Oxanium&display=swap');
+
+.fontePrincipal {
+    font-family: Oxanium;
+}
+ 
+.fonteSecundaria {
+    font-family: Audiowide;
+}
+
+.corPrimaria {
+    color: #FBF5F3;
+}
+
+.corDestaque {
+    color: #50C5B7;
+}
+
+body{
+    font-size: large;
+    background-color: #21242B;
+    margin: auto;
+    box-shadow: 0px 0px 10px #50C5B7;
+    padding: 15px;   
+    margin: 5px auto auto auto;
+    width: 85%;
+}
+
+a{
+    text-decoration: none;
+}
+
+img#logo{
+    width: 100px;
+}
+
+input#busca{
+    width: 100%;    
+}
+
+table#MenuOpcoes {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger;
+    border-bottom: #50C5B7 1px dotted;
+}
+
+table#MenuOpcoes tr td{
+    padding-bottom: 10px;
+}
+
+table#MenuAlfa {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: #50C5B7 1px dotted;
+    display: none;
+}
+
+table#MenuAlfa tr td {
+    padding-bottom: 10px;
+}
+
+
+div#propaganda {
+    background-image: url('../_imagem/bannerpropaganda.jpg');
+    height: 100px;
+    width: 480px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

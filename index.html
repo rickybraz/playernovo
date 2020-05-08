@@ -1,0 +1,86 @@
+<!--
+    Sistema de player para deselvonver conhecimento em HTML5, CSS3 e JS
+    Autor: Ricardo Jaridm Braz
+    Data de inicio do projeto: 7/05/2020
+    E-mail: rickybraz@gmail.com
+-->
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Player de música</title>
+    <link rel="stylesheet" href="_css/reset.css">
+    <link rel="stylesheet" href="_css/inicial.css">
+</head>
+<body class='fontePrincipal corPrimaria'>
+    <header>
+        <nav>
+
+            <table>
+                <td>
+                    <tr><img src="_imagem/logo.png" alt="Logotipo do novo player de musica" id='logo'></tr>
+                    <tr><input type="search" name="busca" id="busca" placeholder="Para buscar após digitar o texto precione <ENTER>" onclick="busca(event)"  id='busca' class='fonteSecundaria'></tr>
+                </td>
+            </table>
+            
+            <table id="MenuOpcoes">
+                <tr>
+                    <td><a href="javascript:BuscaEstilo()" class="fonteSecundaria corPrimaria">Estilo</a></td>
+                    <td><a href="javascript:BuscaArtista()" class="fonteSecundaria corPrimaria">Artista</a></td>
+                    <td><a href="javascript:BuscaAlbuns()" class="fonteSecundaria corPrimaria">Albuns</a></td>
+                </tr>
+            </table>
+
+            <table id='MenuAlfa'>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>I</td>
+                    <td>J</td>
+                    <td>K</td>
+                    <td>L</td>
+                    <td>M</td>
+                    <td>N</td>
+                    <td>O</td>
+                    <td>P</td>
+                    <td>Q</td>
+                    <td>R</td>
+                    <td>S</td>
+                    <td>T</td>
+                    <td>U</td>
+                    <td>V</td>
+                    <td>X</td>
+                    <td>Y</td>
+                    <td>W</td>
+                    <td>Z</td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <article id="Janela">
+        <iframe src="_paginas/tocador.html" frameborder="0"></iframe>
+        Bem vindo ao Player 2.0
+    </article>
+
+    <footer>
+        <div id="propaganda">
+            <!--Aba de propaganda-->
+            Banner
+        </div>
+    </footer>
+
+
+    <!--Chama o JS-->
+    <script src="_js/chamadas.js"></script>
+
+
+</body>
+</html>
