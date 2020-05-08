@@ -1,12 +1,12 @@
 # Versão Player 2.0
 
-Player de música feito em HTML5, CSS3 e JS com o objetivo de testar conhecimento.
+Player de música feito em HTML5, CSS3 e JS com o objetivo de testar conhecimento.&nbsp;
 Ideias para este player:
 * Responsivo sem usar nenhum framework
 * Seja funcional
 * Não precise de banco de dados para ser utilizado
 
-*LISTA DE TAREFAS*
+## LISTA DE TAREFAS
 - [x] Formatar o cabeçalho
 - [x] Formatar o Rodapé
 - [ ] Centralizar verticalmente a barra de busca
