@@ -35,7 +35,9 @@ img#logo{
 }
 
 input#busca{
-    width: 100%;    
+    width: 80%; 
+    font-size: large;
+    margin-left: 20px;
 }
 
 table#MenuOpcoes {
