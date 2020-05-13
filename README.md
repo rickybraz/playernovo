@@ -12,8 +12,10 @@ Ideias para este player:
 - [x] Formatar o cabeçalho
 - [x] Formatar o Rodapé
 - [ ] Centralizar verticalmente a barra de busca
-- [ ] Montar a tela de abertura do player
+- [x] Montar a tela de abertura do player
 - [ ] Tornar o Menu funcional
+- [ ] Otimizar imagens do estilo
+- [ ] Verificar responsividade do iframe
 - [ ] ...
 
 

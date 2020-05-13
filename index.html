@@ -13,19 +13,21 @@
     <link rel="stylesheet" href="_css/reset.css">
     <link rel="stylesheet" href="_css/inicial.css">
 </head>
-<body class='fontePrincipal corPrimaria'>
+<body class='fontePrincipal corPrimaria PaginaInicial'>
     <header>
         <nav>
             <table>
                 <td>
                     <tr><img src="_imagem/logo.png" alt="Logotipo do novo player de musica" id='logo'></tr>
-                    <tr><input type="search" name="busca" id="busca" placeholder="Para buscar após digitar o texto precione <ENTER>" onclick="busca()"  id='busca' class='fonteSecundaria'></tr>
+                    <tr>
+                        <input class='fonteSecundaria' type="search" id="busca" placeholder="Para buscar após digitar o texto precione <ENTER>" onkeypress="busca(event)">
+                    </tr>
                 </td>
             </table>
             
             <table id="MenuOpcoes">
                 <tr>
-                    <td><a href="javascript:BuscaEstilo()" class="fonteSecundaria corPrimaria">Estilo</a></td>
+                    <td><a href="_paginas/estilos.html" onclick="BuscaEstilo()" target="Ijanela" class="fonteSecundaria corPrimaria">Estilo</a></td>
                     <td><a href="javascript:BuscaArtista()" class="fonteSecundaria corPrimaria">Artista</a></td>
                     <td><a href="javascript:BuscaAlbuns()" class="fonteSecundaria corPrimaria">Albuns</a></td>
                 </tr>
@@ -64,9 +66,10 @@
         </nav>
     </header>
 
-    <article id="Janela">
-        <iframe src="_paginas/tocador.html" frameborder="0"></iframe>
-        Bem vindo ao Player 2.0
+    <article>
+        <div class='Janela'>
+           <iframe id="JanelaFrame" width=100% heigh="250px" frameborder="0" name='Ijanela' src="_paginas/bemvindo.html"></iframe>
+        </div>
     </article>
 
     <footer>

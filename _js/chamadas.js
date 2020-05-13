@@ -6,16 +6,22 @@ function busca(tecla){
 }
 
 function BuscaEstilo() {
-    window.alert("oi")
-    var janela = document.getElementById("Janela")
-    janela.innerHTML = `<iframe src="_paginas/estilos.html">`
-    
+    /* Função para dimensionar o frame do Estilo */
+    TamanhoFrame("400")
+ 
 }
-
+ 
 function BuscaArtista() {
     window.alert("oi")
 }
 
 function BuscaAlbuns() {
     window.alert("oi")
+}
+
+
+function TamanhoFrame(valor) {
+    /* Redimensiona o iframe com os parametros passados pelo tamanho informado */
+    var index = document.getElementById("JanelaFrame")
+    index.style.height = valor + "px"
 }
