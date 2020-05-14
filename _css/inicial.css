@@ -92,6 +92,12 @@ div#propaganda {
     margin-bottom: 10px;
 }
 
+.DimensaoImagem {
+    width: 280px;
+    height: 200px;
+}
+
+
 /*Pagina Bem vindo*/
 
 h1#bemvindo{

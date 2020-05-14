@@ -1,20 +1,92 @@
 /* Folha de estilo para a pagina estilo html */
-/* ul#playlistLista{
+
+
+.LimpaUL {
     margin: 0 auto;
     list-style: none;
 }
 
-ul#playlistLista li {
+.LimpaUL li {
     float: left;
-    width: 280px;
-    height: 280px;
     margin: 10px;
-    border: 5px;
     text-align: center;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black;
+    font-style: initial;
+    font-size: larger;
+    line-height: 200px;
 }
-*/
 
-.EstiloDimensao {
-    width: 280px;
-    height: 200px;
+.estiloRock {
+    background-image: url("../_imagem/_estilo/01.jpg");
+    background-size: cover;
+}
+
+.estiloPop {
+    background-image: url("../_imagem/_estilo/02.jpg");
+    background-size: cover;
+}
+
+.estiloInfantil  {
+    background-image: url("../_imagem/_estilo/03.jpg");
+    background-size: cover;
+}
+
+.estiloSamba {
+    background-image: url("../_imagem/_estilo/04.jpg");
+    background-size: cover;
+}
+
+.estiloAcustico {
+    background-image: url("../_imagem/_estilo/05.jpg");
+    background-size: cover;
+}
+
+.estiloReggae {
+    background-image: url("../_imagem/_estilo/06.jpg");
+    background-size: cover;
+}
+
+.estiloDance {
+    background-image: url("../_imagem/_estilo/07.jpg");
+    background-size: cover;
+}
+
+.estiloMPB {
+    background-image: url("../_imagem/_estilo/08.jpg");
+    background-size: cover;
+}
+
+.estiloCoral {
+    background-image: url("../_imagem/_estilo/09.jpg");
+    background-size: cover;
+}
+
+.estiloBlues {
+    background-image: url("../_imagem/_estilo/10.jpg");
+    background-size: cover;
+}
+
+.estiloHard {
+    background-image: url("../_imagem/_estilo/11.jpg");
+    background-size: cover;
+}
+
+.estiloContry {
+    background-image: url("../_imagem/_estilo/12.jpg");
+    background-size: cover;
+}
+
+.estiloBaiao {
+    background-image: url("../_imagem/_estilo/13.jpg");
+    background-size: cover;
+}
+
+.estiloSalsa {
+    background-image: url("../_imagem/_estilo/14.jpg");
+    background-size: cover;
+}
+
+.estiloInstrumental {
+    background-image: url("../_imagem/_estilo/15.jpg");
+    background-size: cover;
 }
