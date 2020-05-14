@@ -16,7 +16,7 @@ Ideias para este player:
 - [ ] Tornar o Menu funcional
 - [ ] Otimizar imagens do estilo
 - [ ] Verificar responsividade do iframe
-- [ ] ...
+- [ ] Pagina de estilo formatada
 
 
 ### Informações do dev ###
@@ -26,4 +26,3 @@ E-mail: rickybraz@gmail.com
 
 [Facebook](https://www.facebook.com/ricardo.braz.9/)
 [Twitter](https://twitter.com/poseidon_sc/)
-
