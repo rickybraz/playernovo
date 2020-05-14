@@ -15,8 +15,12 @@ Ideias para este player:
 - [x] Montar a tela de abertura do player
 - [ ] Tornar o Menu funcional
 - [ ] Otimizar imagens do estilo
-- [ ] Verificar responsividade do iframe
-- [ ] Pagina de estilo formatada
+- [ ] Otimizar responsividade do iframe
+- [x] Pagina de estilo formatada
+- [ ] Pagina de Artistas
+- [ ] Pagina de Albuns
+- [ ] Colocar parte de propaganda responsivo
+- [ ] Fazer uma pagina de boas vindas com mais detalhes do player
 
 
 ### Informações do dev ###

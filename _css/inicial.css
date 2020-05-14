@@ -4,7 +4,7 @@
 .fontePrincipal {
     font-family: Oxanium;
 }
- 
+
 .fonteSecundaria {
     font-family: Audiowide;
 }
@@ -31,7 +31,7 @@
     background-color: #21242B;
     margin: auto;
     box-shadow: 0px 0px 10px #50C5B7;
-    padding: 15px;   
+    padding: 15px;
     margin: 5px auto auto auto;
     width: 85%;
 }
@@ -45,7 +45,7 @@ img#logo{
 }
 
 input#busca{
-    width: 80%; 
+    width: 80%;
     font-size: large;
     margin-left: 20px;
 }
@@ -80,7 +80,6 @@ div.Janela {
 
 iframe {
     border: none;
-    width: 100%;
 }
 
 div#propaganda {
@@ -103,11 +102,9 @@ div#propaganda {
 h1#bemvindo{
     text-align: center;
     font-size: xx-large;
-
 }
 
 .textoBemvindo{
     text-align: center;
     font-size: larger;
-
 }
