@@ -1,0 +1,20 @@
+/* Folha de estilo para a pagina modelorelaciona.html*/
+
+.RelacionaUL {
+    margin: 0 auto;
+    list-style: none;
+}
+
+.RelacionaUL li {
+    float: left;
+    width: 18%;
+    text-align: center;
+    margin: 5px;
+    line-height: 300%;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px #50C5B7 solid;
+}
+
+
+  

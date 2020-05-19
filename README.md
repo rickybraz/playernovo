@@ -11,7 +11,7 @@ Ideias para este player:
 ## LISTA DE TAREFAS
 - [x] Formatar o cabeçalho
 - [x] Formatar o Rodapé
-- [ ] Centralizar verticalmente a barra de busca
+- [x] Centralizar verticalmente a barra de busca
 - [x] Montar a tela de abertura do player
 - [ ] Tornar o Menu funcional
 - [ ] Otimizar imagens do estilo
@@ -21,6 +21,12 @@ Ideias para este player:
 - [ ] Pagina de Albuns
 - [ ] Colocar parte de propaganda responsivo
 - [ ] Fazer uma pagina de boas vindas com mais detalhes do player
+- [ ] Fazer busca por tema
+- [ ] Arquivo em PDF para impressão com cifra e tablatura
+- [ ] Colocar link com os vídeos da músicas
+- [ ] Como colocar as diversas versões da mesma músicas
+- [ ] Mudar as cores do link do menu quando estiver selecionado
+- [ ] ....
 
 
 ### Informações do dev ###

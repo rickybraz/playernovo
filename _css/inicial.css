@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Oxanium&display=swap');
 @import 'estilo.css';
+@import 'relaciona.css';
 
 .fontePrincipal {
     font-family: Oxanium;
@@ -43,11 +44,17 @@ a{
 img#logo{
     width: 100px;
 }
+.TableNav{
+    position: relative;
+    width: 100%;
+}
 
 input#busca{
     width: 80%;
     font-size: large;
     margin-left: 20px;
+    position: relative;
+    bottom: 50px;
 }
 
 table#MenuOpcoes {
@@ -106,4 +113,8 @@ h1#bemvindo{
 .textoBemvindo{
     text-align: center;
     font-size: larger;
+}
+
+h2#bemvindo{
+    text-align: center;
 }
