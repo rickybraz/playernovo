@@ -13,7 +13,7 @@ Ideias para este player:
 - [x] Formatar o Rodapé
 - [x] Centralizar verticalmente a barra de busca
 - [x] Montar a tela de abertura do player
-- [ ] Tornar o Menu funcional
+- [x] Tornar o Menu funcional
 - [ ] Otimizar imagens do estilo
 - [ ] Otimizar responsividade do iframe
 - [x] Pagina de estilo formatada
@@ -26,7 +26,7 @@ Ideias para este player:
 - [ ] Colocar link com os vídeos da músicas
 - [ ] Como colocar as diversas versões da mesma músicas
 - [ ] Mudar as cores do link do menu quando estiver selecionado
-- [ ] ....
+
 
 
 ### Informações do dev ###
