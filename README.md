@@ -17,8 +17,9 @@ Ideias para este player:
 - [ ] Otimizar imagens do estilo
 - [ ] Otimizar responsividade do iframe
 - [x] Pagina de estilo formatada
-- [ ] Pagina de Artistas
-- [ ] Pagina de Albuns
+- [x] Pagina de Busca artistas
+- [x] Pagina de busca Albuns
+- [ ] Pagina do artista
 - [ ] Colocar parte de propaganda responsivo
 - [ ] Fazer uma pagina de boas vindas com mais detalhes do player
 - [ ] Fazer busca por tema
@@ -26,6 +27,7 @@ Ideias para este player:
 - [ ] Colocar link com os vídeos da músicas
 - [ ] Como colocar as diversas versões da mesma músicas
 - [ ] Mudar as cores do link do menu quando estiver selecionado
+- [ ] Mudar o ponteiro do mouse no onMouseover nos links
 
 
 

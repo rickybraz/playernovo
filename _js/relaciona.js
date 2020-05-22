@@ -20,26 +20,47 @@ function MontaDados(){
   var elementos = relaciona(pesquisa, letra)
   elementos.sort()
   /* Ver qual tipo de pesquisa e para onde vai o link */
-  var link
-  if (pesquisa="artista"){
-    link = "_paginas/artista.html"
-  } else {
-    link = "_paginas/tocador.html"
+  var index = document.getElementById("ListaRelacao")
+
+
+  for (var aux=1; aux<=elementos.length; aux++){
+    chave = elementos[aux-1].split("&")
+    if (pesquisa =='artista') {
+      index.innerHTML = index.innerHTML + `<a href=artistas.html?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'><li>` +chave[0]+ `</li></a>`
+    } if (pesquisa =='album') {
+      index.innerHTML = index.innerHTML + `<a href=tocador.html?cod=` + chave[2] + ` class='corPrimaria fontePrincipal'><li>` +chave[0]+ `<p class='linhasimples'>` +chave[1] + `</p></li></a>`
+    }
   }
 
-  /* Monta a lista de apresentação*/
+}
+
+/*
+  var link
+  if (pesquisa=="artista"){
+    link = "artistas.html"
+  } else {
+    link = "tocador.html"
+  }
+
+  /* Monta a lista de apresentação
   var index = document.getElementById("ListaRelacao")
   for (var aux=1; aux<=elementos.length; aux++) {
     chave = elementos[aux-1].split("&")
-    index.innerHTML = index.innerHTML + `<li onClick=`+ link +`?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'>` +chave[0]+ `</li>`
+    index.innerHTML = index.innerHTML + `<a href=`+ link +`?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'><li>` +chave[0]+ `</li></a>`
   }
-}
-
+  */
 
 
 function relaciona (pesquisa, letra){
   /* Faz a busca um array com o nome do artista / album e seu codigo atravez de um array
-  estrutura do array -> Nome + & + codigo
+  estrutura do array
+  Artista => Artista + & + codigo
+  Album => Album + Artista + Codigo
   */
-  return ["Acorde Luz&1", "Acustica do Ser&2", "Haline Amaral&4", "Anima&5", "Arte Renascer&6", "Auta de Souza&7", "Allan Filho&10"]
+  if (pesquisa=='artista') {
+      return ["Acorde Luz&1", "Acustica do Ser&2", "Haline Amaral&4", "Anima&5", "Arte Renascer&6", "Auta de Souza&7", "Allan Filho&10"]
+  } if (pesquisa =='album'){
+      return ["Alegria Cristã&GAN&1", "Semente da verdade&Grupo musical Castelã&2", "Chamado&Grupo AME&4", "Receita de Paz&Grupo musical Receita da PAz&5", "Viajante do tempo&Guilherme Medina&6", "Doce sintonia&Lau Porto&7"]
+  }
+
 }
