@@ -14,7 +14,7 @@ Ideias para este player:
 - [x] Centralizar verticalmente a barra de busca
 - [x] Montar a tela de abertura do player
 - [x] Tornar o Menu funcional
-- [ ] Otimizar imagens do estilo
+- [x] Otimizar imagens do estilo
 - [ ] Otimizar responsividade do iframe
 - [x] Pagina de estilo formatada
 - [x] Pagina de Busca artistas
