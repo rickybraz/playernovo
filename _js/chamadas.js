@@ -88,25 +88,6 @@ function MostraAlbum(letra) {
 }
 
 
-function MontaDados(){
-  /* Faz a leitura via get do tipo de pesquisa (artista e albuns) e letra para mostrar */
-  var query = location.search.slice(1)
-  var pesquisa
-  var letra
-
-  var chaveValor = query.split('=');
-  var pesquisa = chaveValor[0];
-  var letra = chaveValor[1];
-
-  var index = document.getElementById("TituloRelaciona")
-
-  if (pesquisa=="album") {
-      index.innerHTML = `<h2 id="bemvindo" class='corPrimaria fontePrincipal'>Albuns com a letra `+letra.toUpperCase()+`</h2>`
-  } if (pesquisa =="artista"){
-      index.innerHTML = `<h2 id="bemvindo" class='corPrimaria fontePrincipal'>Artistas com a letra `+letra.toUpperCase()+`</h2>`
-  }
-
-}
 
 
 function TamanhoFrame(valor) {
