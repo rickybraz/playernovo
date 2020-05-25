@@ -28,28 +28,15 @@ function MontaDados(){
     if (pesquisa =='artista') {
       index.innerHTML = index.innerHTML + `<a href=artistas.html?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'><li>` +chave[0]+ `</li></a>`
     } if (pesquisa =='album') {
-      index.innerHTML = index.innerHTML + `<a href=tocador.html?cod=` + chave[2] + ` class='corPrimaria fontePrincipal'><li>` +chave[0]+ `<p class='linhasimples'>` +chave[1] + `</p></li></a>`
+      index.innerHTML = index.innerHTML + `<a href=tocador.html?cod=` + chave[2] + ` class='corPrimaria fontePrincipal'><li><strong>` +chave[0]+ `</strong><p class='linhasimples'>` +chave[1] + `</p></li></a>`
     }
   }
 
 }
 
-/*
-  var link
-  if (pesquisa=="artista"){
-    link = "artistas.html"
-  } else {
-    link = "tocador.html"
-  }
-
-  /* Monta a lista de apresentação
-  var index = document.getElementById("ListaRelacao")
-  for (var aux=1; aux<=elementos.length; aux++) {
-    chave = elementos[aux-1].split("&")
-    index.innerHTML = index.innerHTML + `<a href=`+ link +`?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'><li>` +chave[0]+ `</li></a>`
-  }
-  */
-
+function MontaAlbuns {
+  /* Função para montar os albuns */
+}
 
 function relaciona (pesquisa, letra){
   /* Faz a busca um array com o nome do artista / album e seu codigo atravez de um array

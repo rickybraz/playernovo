@@ -27,7 +27,7 @@ Ideias para este player:
 - [ ] Colocar link com os vídeos da músicas
 - [ ] Como colocar as diversas versões da mesma músicas
 - [ ] Mudar as cores do link do menu quando estiver selecionado
-- [ ] Mudar o ponteiro do mouse no onMouseover nos links
+- [ ] Mudar o ponteiro do mouse no onMouseover nos links (cursor: pointer)
 
 
 

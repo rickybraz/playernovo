@@ -21,3 +21,24 @@
   font-weight: 200;
   margin-top: 0px;
 }
+
+.PainelArtista {
+  display: inline-block;
+  text-align: center;
+
+}
+
+.PainelArtista img {
+  width: 300px;
+}
+
+.redeSocial {
+  font-size: x-large;
+  line-height: 0%;
+  text-align: center;
+}
+
+.PainelAlbuns {
+  display: inline-block;
+  vertical-align: top;
+}
