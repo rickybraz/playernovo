@@ -26,16 +26,23 @@ function MontaDados(){
   for (var aux=1; aux<=elementos.length; aux++){
     chave = elementos[aux-1].split("&")
     if (pesquisa =='artista') {
-      index.innerHTML = index.innerHTML + `<a href=artistas.html?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'><li>` +chave[0]+ `</li></a>`
+      index.innerHTML = index.innerHTML + `<a href=artistas.html?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'><li class="RelacionaLi">` +chave[0]+ `</li></a>`
     } if (pesquisa =='album') {
-      index.innerHTML = index.innerHTML + `<a href=tocador.html?cod=` + chave[2] + ` class='corPrimaria fontePrincipal'><li><strong>` +chave[0]+ `</strong><p class='linhasimples'>` +chave[1] + `</p></li></a>`
+      index.innerHTML = index.innerHTML + `<a href=tocador.html?cod=` + chave[2] + ` class='corPrimaria fontePrincipal'><li class="RelacionaLi"><strong>` +chave[0]+ `</strong><p class='linhasimples'>` +chave[1] + `</p></li></a>`
     }
   }
 
 }
 
-function MontaAlbuns {
-  /* Função para montar os albuns */
+function AlbunsArtista(codigo) {
+  var elementos = relaciona('ArtistaAlbum').sort()
+  var index = document.getElementById("ListaAlbuns")
+  for (var aux=1; aux<=elementos.length; aux++) {
+    var chave = elementos[aux-1].split("&")
+    index.innerHTML = index.innerHTML + `<a href=tocador.html?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'><li class="RelacionaLi">` +chave[0]+ `</li></a>`
+  }
+
+
 }
 
 function relaciona (pesquisa, letra){
@@ -43,11 +50,14 @@ function relaciona (pesquisa, letra){
   estrutura do array
   Artista => Artista + & + codigo
   Album => Album + Artista + Codigo
+  ArtistaAlbum => Relação de albuns do artista
   */
   if (pesquisa=='artista') {
       return ["Acorde Luz&1", "Acustica do Ser&2", "Haline Amaral&4", "Anima&5", "Arte Renascer&6", "Auta de Souza&7", "Allan Filho&10"]
   } if (pesquisa =='album'){
       return ["Alegria Cristã&GAN&1", "Semente da verdade&Grupo musical Castelã&2", "Chamado&Grupo AME&4", "Receita de Paz&Grupo musical Receita da PAz&5", "Viajante do tempo&Guilherme Medina&6", "Doce sintonia&Lau Porto&7"]
+  } if (pesquisa == 'ArtistaAlbum') {
+      return ["Anjos&10", "Semente do amanha&20","Viajante do universo&21","Chamado&11"]
   }
 
 }

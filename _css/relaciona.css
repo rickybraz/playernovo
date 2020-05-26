@@ -5,7 +5,7 @@
     list-style: none;
 }
 
-.RelacionaUL li {
+.RelacionaLi {
     float: left;
     width: 18%;
     text-align: center;
@@ -16,6 +16,7 @@
     border: 1px #50C5B7 solid;
 }
 
+
 .linhasimples {
   line-height: 0%;
   font-weight: 200;
@@ -25,7 +26,6 @@
 .PainelArtista {
   display: inline-block;
   text-align: center;
-
 }
 
 .PainelArtista img {
@@ -41,4 +41,6 @@
 .PainelAlbuns {
   display: inline-block;
   vertical-align: top;
+  width:1100px;
+
 }
