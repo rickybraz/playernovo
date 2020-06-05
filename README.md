@@ -19,7 +19,7 @@ Ideias para este player:
 - [x] Pagina de estilo formatada
 - [x] Pagina de Busca artistas
 - [x] Pagina de busca Albuns
-- [ ] Pagina do artista
+- [x] Pagina do artista
 - [ ] Colocar parte de propaganda responsivo
 - [ ] Fazer uma pagina de boas vindas com mais detalhes do player
 - [ ] Fazer busca por tema

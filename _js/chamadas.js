@@ -98,7 +98,7 @@ function TamanhoFrame(valor) {
 
 function AbrePlayer(busca,frase) {
   /* Faz a montagem da playlist e chama a pagina do player
-  busca = 1-Estilo, 2-Autor 3- Estilo
+  busca = 1-Estilo, 2-Autor 3- Album
   frase = Expresão de busca dentro da opção de busca
   Se estilo = 1 - ROCK
               2 - POP

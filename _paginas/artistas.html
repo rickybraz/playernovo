@@ -11,8 +11,13 @@
 <body class="corPrimaria fontePrincipal" onload="AlbunsArtista(10)">
 
 <section>
+
   <div class="PainelArtista">
     <h1>Denis Soares</h1>
+    <ul class="LimpaULartista">
+      <li onclick="AbrePlayer(2,2)" class="RelacionaLi TocaArtista"><i class="fas fa-play tocador"></i>Tocar artista</li>
+    </ul>
+
     <img src="../_imagem/_artista/01.jpg" alt="Foto de Denis Soares">
     <p class="redeSocial">
       <a class="corPrimaria" href="http://www.youtube.com.br"><i class="fab fa-youtube"></i></a>
@@ -35,12 +40,12 @@
   </div>
 
   <div class="PainelAlbuns">
-    Albuns
-    <ul id="ListaAlbuns" class="LimpaUL">
+    <h2 id="bemvindo" class="fontePrincipal">Albuns</h2>
+    <ul id="ListaAlbuns" class="LimpaULartista">
     </ul>
   </div>
 
-
+ 
 
 <!--Chama o JS-->
   <script src="../_js/chamadas.js"></script>
