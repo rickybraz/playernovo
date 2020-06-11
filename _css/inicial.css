@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Oxanium&display=swap');
 @import 'estilo.css';
 @import 'relaciona.css';
+@import 'tocador.css';
 
 .fontePrincipal {
     font-family: Oxanium;

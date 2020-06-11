@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tocadisco</title>
+    <title>Tocador</title>
+    <link rel="stylesheet" href="../_css/inicial.css">
 </head>
-<body>
-    Toca disco
+<body class="corPrimaria fontePrincipal">
+    <div class="TocadorEsquerdo">
+
+        <p id="TocadorAlbum" class="fonteSecundaria">Cancioneiro espirita</p>
+        <p id="TocadorCantor">Cantores Diversos</p>
+        <p id="TocadorMusica">A palavra</p>
+
+        <p>
+            <i class="fas fa-backward"></i>
+            <i class="fas fa-play"></i>
+            <i class="fas fa-pause"></i>
+            <i class="fas fa-forward"></i>
+        </p>
+
+        <img src="../_imagem/_album/cancioneiroespirita_3.jpg" alt="Imagem do album" id="TocadorImg">
+    </div>
+
+    <div class="TocadorLista">
+        <table>
+            <tr>
+                <td> </td>
+                <td>Música</td>
+                <td>Artista</td>
+                <td>Album</td>
+                <td>Duração</td>
+            </tr>
+
+            <tr>
+                <td><i class="fas fa-chevron-right"></i></td>
+                <td>A Palavra</td>
+                <td>Cantores Diversos</td>
+                <td>Cancioneiro Espírita</td>
+                <td>05:00</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    Letra da musica / Icones -> PDF/youtube
+       <!--Chama o JS-->
+       <script src="../_js/chamadas.js"></script>
+       <script src="../_js/relaciona.js"></script>
+       <script src="https://kit.fontawesome.com/93ec34fc01.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

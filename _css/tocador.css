@@ -1,0 +1,40 @@
+.TocadorEsquerdo {
+    font-size: x-large;
+    font-weight: 300;
+    text-align: center;
+    width: 30vw;
+    display: inline-block;
+    background-color: red;
+}
+
+.TocadorEsquerdo i {
+    margin: 15px;
+}
+
+#TocadorImg {
+    width: 50%;
+}
+
+#TocadorAlbum {
+    padding: 0;
+    margin: 0;
+}
+
+#TocadorCantor{
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+
+#TocadorMusica{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.TocadorLista{
+    display: inline-block;
+    background-color: blue;
+    width: 30vw;
+    
+}

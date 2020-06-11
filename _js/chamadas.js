@@ -117,5 +117,8 @@ function AbrePlayer(busca,frase) {
               15 - INSTRUMENTAL
 
   */
-  window.alert("chequei")
+  index = window.frames
+  index.location = "../_paginas/tocador.html"
+
+
 }

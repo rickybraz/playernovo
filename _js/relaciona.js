@@ -28,7 +28,7 @@ function MontaDados(){
     if (pesquisa =='artista') {
       index.innerHTML = index.innerHTML + `<a href=artistas.html?cod=` + chave[1] + ` class='corPrimaria fontePrincipal'><li class="RelacionaLi">` +chave[0]+ `</li></a>`
     } if (pesquisa =='album') {
-      index.innerHTML = index.innerHTML + `<a href=tocador.html?cod=` + chave[2] + ` class='corPrimaria fontePrincipal'><li class="RelacionaLi"><strong>` +chave[0]+ `</strong><p class='linhasimples'>` +chave[1] + `</p></li></a>`
+      index.innerHTML = index.innerHTML + `<li onClick="AbrePlayer(3,` + chave [2]+ `)" class="corPrimaria fontePrincipal RelacionaLi"><strong>` +chave[0]+ `</strong><p class='linhasimples'>` +chave[1] + `</p></li></a>`
     }
   }
 
